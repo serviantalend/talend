@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_eaPosUi-Eear4sEwesoLaw" label="Demo" description="" language="java" technicalLabel="DEMO" creationDate="2016-07-13T15:53:22.454+1000" author="_eaPoski-Eear4sEwesoLaw" productVersion="Talend Data Fabric-6.2.1.20160704_1411" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/serviantalend/talend.git&quot;,&quot;login&quot;:&quot;serviantalend&quot;,&quot;passwd&quot;:&quot;D6TLJ1d7AQ3R9pYHBsBGxg==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="MDM">
+  <TalendProperties:Project xmi:id="_eaPosUi-Eear4sEwesoLaw" label="Demo" description="" language="java" technicalLabel="DEMO" creationDate="2016-07-13T15:53:22.454+1000" author="_eaPoski-Eear4sEwesoLaw" productVersion="Talend Data Fabric-6.2.1.20160704_1411" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/serviantalend/talend.git&quot;,&quot;login&quot;:&quot;serviantalend&quot;,&quot;passwd&quot;:&quot;D6TLJ1d7AQ3R9pYHBsBGxg==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="MDM" itemsRelationVersion="1.3">
+    <technicalStatus xmi:id="_fHTjAEi-Eear4sEwesoLaw" label="development" code="DEV"/>
+    <technicalStatus xmi:id="_fHTjAUi-Eear4sEwesoLaw" label="testing" code="TEST"/>
+    <technicalStatus xmi:id="_fHTjAki-Eear4sEwesoLaw" label="production" code="PROD"/>
+    <documentationStatus xmi:id="_fHSU4Ei-Eear4sEwesoLaw" label="unchecked" code="UCK"/>
+    <documentationStatus xmi:id="_fHSU4Ui-Eear4sEwesoLaw" label="checked" code="CHK"/>
+    <documentationStatus xmi:id="_fHSU4ki-Eear4sEwesoLaw" label="validated" code="VAL"/>
     <migrationTask xmi:id="_fHABAEi-Eear4sEwesoLaw" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_fHABAUi-Eear4sEwesoLaw" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_fHABAki-Eear4sEwesoLaw" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
@@ -23,4 +29,7 @@
     <migrationTask xmi:id="_fHABE0i-Eear4sEwesoLaw" id="org.talend.mdm.repository.core.migrate.UpdateOperatorMigrationTask" breaks="6.2.0" version="6.2.0" status="noimpact"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_eaPoski-Eear4sEwesoLaw" login="admin@company.com" firstName="admin" lastName="admin" type="MDM" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_fHVYMEi-Eear4sEwesoLaw" login="mdm@talend.com" firstName="MDM" lastName="Talend" type="MDM" additionnalData="{}">
+    <projectAuthorization href="../Applications/Talend-6.2.1/studio/#/"/>
+  </TalendProperties:User>
 </xmi:XMI>
